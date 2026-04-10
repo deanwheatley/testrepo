@@ -76,8 +76,8 @@ cp .env.local.example .env.local
 Edit `.env.local`:
 
 ```bash
-KONDUCTOR_PORT=4000
-KONDUCTOR_API_KEY=my-team-secret
+KONDUCTOR_PORT=3010
+KONDUCTOR_API_KEY=konductor
 ```
 
 Then start the server:
@@ -101,7 +101,7 @@ KONDUCTOR_PORT=4000 node dist/index.js --sse
 Verify it's running:
 
 ```bash
-curl -H "Authorization: Bearer my-team-secret" http://localhost:3010/health
+curl -H "Authorization: Bearer konductor" http://localhost:3010/health
 # → {"status":"ok"}
 ```
 
@@ -142,7 +142,7 @@ Leave this running in a terminal (or use a process manager like `pm2`). Teammate
     "konductor": {
       "url": "http://localhost:3010/sse",
       "headers": {
-        "Authorization": "Bearer my-team-secret"
+        "Authorization": "kd-a7f3b9c2e1d4"
       },
       "autoApprove": ["register_session", "check_status", "deregister_session", "list_sessions"]
     }
@@ -160,7 +160,7 @@ Use the hostname or IP of the machine running the server. For example, if the se
     "konductor": {
       "url": "http://LT-DWHEATLEY-2.local:3010/sse",
       "headers": {
-        "Authorization": "Bearer my-team-secret"
+        "Authorization": "kd-a7f3b9c2e1d4"
       },
       "autoApprove": ["register_session", "check_status", "deregister_session", "list_sessions"]
     }
@@ -176,7 +176,7 @@ Or using the IP directly:
     "konductor": {
       "url": "http://192.168.68.74:3010/sse",
       "headers": {
-        "Authorization": "Bearer my-team-secret"
+        "Authorization": "kd-a7f3b9c2e1d4"
       },
       "autoApprove": ["register_session", "check_status", "deregister_session", "list_sessions"]
     }
