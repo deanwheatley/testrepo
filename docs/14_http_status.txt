@@ -1,0 +1,62 @@
+# HTTP Status Codes — Quick Reference
+#
+# A handy list of the most common HTTP response codes
+# grouped by category.
+
+=== 1xx Informational ===
+100  Continue
+101  Switching Protocols
+102  Processing
+
+=== 2xx Success ===
+200  OK
+201  Created
+202  Accepted
+204  No Content
+
+=== 3xx Redirection ===
+301  Moved Permanently
+302  Found (Temporary Redirect)
+304  Not Modified
+307  Temporary Redirect
+308  Permanent Redirect
+
+=== 4xx Client Errors ===
+400  Bad Request
+401  Unauthorized
+403  Forbidden
+404  Not Found
+405  Method Not Allowed
+408  Request Timeout
+409  Conflict
+410  Gone
+413  Payload Too Large
+415  Unsupported Media Type
+422  Unprocessable Entity
+429  Too Many Requests
+
+=== 5xx Server Errors ===
+500  Internal Server Error
+501  Not Implemented
+502  Bad Gateway
+503  Service Unavailable
+504  Gateway Timeout
+
+---
+
+Tips:
+  * 2xx means everything worked.
+  * 3xx means the resource moved somewhere else.
+  * 4xx means the client did something wrong.
+  * 5xx means the server had a problem.
+
+When debugging APIs, always check the status code first.
+It tells you more than the response body in most cases.
+
+Common pairs:
+  POST   -> 201 Created
+  GET    -> 200 OK
+  DELETE -> 204 No Content
+  PUT    -> 200 OK or 204 No Content
+
+End of reference.

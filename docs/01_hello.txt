@@ -1,0 +1,52 @@
+# Hello World — Plain Text
+#
+# This is a simple plain-text document that serves as a
+# welcome message for the document viewer application.
+#
+# The viewer lists every file in the docs/ directory and
+# lets the user pick one to display in the terminal.
+
+Welcome to the Document Viewer!
+
+This lightweight tool was built to browse small code
+snippets and notes right from your terminal.
+
+How to use:
+  1. Run `python viewer.py`
+  2. Pick a number from the list
+  3. Read the file contents printed below
+
+Supported file types in this collection:
+  - .txt   plain text notes
+  - .md    markdown documents
+  - .py    Python scripts
+  - .ts    TypeScript snippets
+  - .java  Java classes
+  - .c     C programs
+
+Feel free to add your own files to the docs/ folder.
+The viewer will automatically pick them up on the next run.
+
+Tips:
+  * Keep files short so they fit on one screen.
+  * Use descriptive filenames for easy browsing.
+  * Press 'q' at the prompt to quit without viewing.
+
+---
+
+Created for demonstration and testing purposes.
+No dependencies required — just Python 3.
+
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Duis aute irure dolor in reprehenderit in voluptate velit
+esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+occaecat cupidatat non proident, sunt in culpa qui officia
+deserunt mollit anim id est laborum.
+
+End of document.

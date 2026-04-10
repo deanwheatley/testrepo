@@ -1,0 +1,53 @@
+# Regular Expressions — Quick Notes
+#
+# A compact reference for common regex patterns.
+
+=== Character Classes ===
+.       Any character (except newline)
+\d      Digit [0-9]
+\D      Non-digit
+\w      Word character [a-zA-Z0-9_]
+\W      Non-word character
+\s      Whitespace
+\S      Non-whitespace
+
+=== Quantifiers ===
+*       Zero or more
++       One or more
+?       Zero or one
+{n}     Exactly n
+{n,}    n or more
+{n,m}   Between n and m
+
+=== Anchors ===
+^       Start of string
+$       End of string
+\b      Word boundary
+
+=== Groups ===
+(abc)       Capturing group
+(?:abc)     Non-capturing group
+(?P<name>)  Named group (Python)
+\1          Back-reference to group 1
+
+=== Common Patterns ===
+Email:    [a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}
+URL:      https?://[^\s]+
+IPv4:     \d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}
+Date:     \d{4}-\d{2}-\d{2}
+Phone:    \+?\d{1,3}[-.\s]?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}
+
+=== Flags ===
+i   Case-insensitive
+g   Global (all matches)
+m   Multiline (^ and $ match line boundaries)
+s   Dotall (. matches newline too)
+
+=== Tips ===
+- Be as specific as possible to avoid false matches.
+- Use non-greedy quantifiers (*?, +?) when needed.
+- Test your regex with an online tool before using it.
+- Escape special characters: . * + ? ^ $ { } [ ] ( ) | \
+- Named groups make complex patterns more readable.
+
+End of reference.
