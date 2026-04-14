@@ -3,7 +3,7 @@
 # This is a simple plain-text document that serves as a
 # welcome message for the document viewer application.
 #
-# The viewer lists every file in the docs/ directory and
+# The viewer lists every ccfile in the docs/ directory and
 # lets the user pick one to display in the terminal.
 
 Welcome to the Document Viewer!

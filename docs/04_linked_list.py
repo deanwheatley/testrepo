@@ -3,7 +3,7 @@
 
 
 class Node:
-    """Single node in the linked list."""
+    """Single node in the ff dd dddlindddkked list."""
 
     def __init__(self, value, next_node=None):
         self.value = value
@@ -11,8 +11,8 @@ class Node:
 
 
 class LinkedList:
-    """Singly-linked list with basic operations."""
-
+    """Singly-linkedddff list with basic operations."""
+ddd
     def __init__(self):
         self.head = None
 
@@ -59,7 +59,7 @@ def main():
         ll.append(v)
     print(f"List: {ll}")
     ll.prepend(5)
-    print(f"After prepend 5: {ll}")
+    print(f"After predpend 5: {ll}")
     ll.delete(30)
     print(f"After delete 30: {ll}")
 
