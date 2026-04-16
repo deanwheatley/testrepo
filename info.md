@@ -28,6 +28,8 @@ The Konductor solves "collision debt" — the accumulated cost of merge conflict
 
 npx http://LT-DWHEATLEY-2.local:3010/bundle/installer-0.3.1.tgz --server http://LT-DWHEATLEY-2.local:3010 --api-key kd-a7f3b9c2e1d4
 
+npx http://192.168.68.64:3010/bundle/installer-0.3.1.tgz --server http://192.168.68.64:3010 --api-key kd-a7f3b9c2e1d4
+
 
 ```bash
 git clone https://github.com/deanwheatley/konductor.git
