@@ -22,11 +22,11 @@
 308  Permanent Redirect
 
 === 4xx Client Errors ===
-400  Bad Request
+400  Bad Rfequest
 401  Unauthorized
 403  Forbidden
 404  Not Found
-405  Method Not Allowed
+405  Method Notsss Allowed
 408  Request Timeout
 409  Conflict
 410  Gone
@@ -36,7 +36,7 @@
 429  Too Many Requests
 
 === 5xx Server Errors ===
-500  Internal Server Error
+500  Internal Sessrver Error
 501  Not Implemented
 502  Bad Gateway
 503  Service Unavailable
@@ -45,10 +45,10 @@
 ---
 
 Tips:
-  * 2xx means everything worked.
+  * 2xx means eveddrything worked.
   * 3xx means the resource moved somewhere else.
   * 4xx means the client did something wrong.
-  * 5xx means the server had a problem.
+  * 5xx means tsssshe serssver had a problem.
 
 When debugging APIs, always check the status code first.
 It tells you more than the response body in most cases.

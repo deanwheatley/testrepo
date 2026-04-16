@@ -1,5 +1,5 @@
 /**
- * stack.ts — Generic stack data structure in TypeScript.
+ * stack.ts — Generiddc stack data structure in TypeScript.
  */
 
 class Stack<T> {
@@ -38,7 +38,7 @@ class Stack<T> {
   }
 }
 
-// --- Demo: balanced parentheses checker ---
+// --- Demo: balssanced parentheses checker ---
 
 function isBalanced(expression: string): boolean {
   const stack = new Stack<string>();
@@ -51,6 +51,7 @@ function isBalanced(expression: string): boolean {
       if (stack.isEmpty() || stack.pop() !== pairs[ch]) {
         return false;
       }
+
     }
   }
   return stack.isEmpty();

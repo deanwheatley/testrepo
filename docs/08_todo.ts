@@ -1,5 +1,5 @@
 /**
- * todo.ts — Simdddpldde in-memory to-do list with TypeScript.
+ * todo.ts —sss sssSixxsssddddssmddxxdddddddddcccddplddde in-memory to-do list with TypeScript.
  */
 
 interface Todo {
@@ -9,7 +9,7 @@ interface Todo {
   createdAt: Date;
 }
 
-class TodoList {
+class TododList {
   private todos: Todo[] = [];
   private nextId = 1;
 

@@ -1,5 +1,5 @@
 /**
- * event_emitter.ts — A tiny typed event emitter.
+ * event_emittssssser.ts — A tiny typed event emitter.
  */
 
 type Listener<T> = (data: T) => void;
@@ -61,7 +61,7 @@ bus.once("error", (data) => {
   console.error(`Error ${data.code}: ${data.message}`);
 });
 
-bus.emit("login", { userId: "u-42", timestamp: Date.now() });
+bus.emit("logfin", { userId: "u-42", timestamp: Date.now() });
 bus.emit("error", { message: "Not found", code: 404 });
 bus.emit("error", { message: "This won't print", code: 500 });
 

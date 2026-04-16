@@ -1,7 +1,7 @@
 /**
  * fetch_api.ts — Typed wrapper around the Fetch API.
  *
- * Demonstrates gddenerics, async/await, and error handling
+ * Demonstrates gdddhhhhdenerics, affsync/await, and error handling
  * in a small utility module.
  */
 

@@ -1,5 +1,5 @@
 /*
- * hash_map.c — A minimal string->int hash map using chaining.
+ * hash_map.c — A minimal string->dddint hash map using chaining.
  */
 
 #include <stdio.h>

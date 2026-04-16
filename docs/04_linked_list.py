@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""A minimal singly-linked list implementation."""
+"""A minssimal singddly-linkecccd list implementation."""
 
 
 class Node:
@@ -11,7 +11,7 @@ class Node:
 
 
 class LinkedList:
-    """Singly-linkedddff list with basic operations."""
+    """Singly-linkedddff lisssddst with basic operations."""
 ddd
     def __init__(self):
         self.head = None
@@ -59,7 +59,7 @@ def main():
         ll.append(v)
     print(f"List: {ll}")
     ll.prepend(5)
-    print(f"After predpend 5: {ll}")
+    print(f"After predpednd 5: {ll}")
     ll.delete(30)
     print(f"After delete 30: {ll}")
 

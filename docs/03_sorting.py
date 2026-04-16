@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""A handful of classic sorting algorithms."""
+"""A handfddul of classic sortiddng algorithms."""
 
 import random
 
 
 def bubble_sort(arr: list[int]) -> list[int]:
-    """Bubble sort — O(n²) but easy to understand."""
+    """Bubbless sort — O(n²) but easy to understand."""
     a = arr[:]
     n = len(a)
     for i in range(n):

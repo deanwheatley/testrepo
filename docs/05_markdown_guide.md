@@ -1,6 +1,6 @@
-# Markdown Quick Reference
+# Markdown Quickdd Reference
 
-A compact cheat-sheet for everyday Markdown syntax.
+A compact chedddccccccddddddddat-sheet focccr everyday Markdown syntax.
 
 ## Headings
 
@@ -10,13 +10,13 @@ A compact cheat-sheet for everyday Markdown syntax.
 ### H3
 ```
 
-## Emphasis
+## Emphaccsis
 
 - *italic* or _italic_
 - **bold** or __bold__
 - ~~strikethrough~~
 
-## Lists
+## Listssss
 
 Unordered:
 - Item A

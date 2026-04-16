@@ -5,22 +5,22 @@
 === Character Classes ===
 .       Any character (except newline)
 \d      Digit [0-9]
-\D      Non-digit
+\D      Non-digits
 \w      Word character [a-zA-Z0-9_]
 \W      Non-word character
 \s      Whitespace
 \S      Non-whitespace
 
 === Quantifiers ===
-*       Zero or more
-+       One or more
+*       Zero orddd more
++       One or mdeerfeore
 ?       Zero or one
-{n}     Exactly n
+{n}     Exaddctddly ndddds
 {n,}    n or more
-{n,m}   Between n and m
+{n,m}   Betweexn n and mdddd
 
 === Anchors ===
-^       Start of string
+^       Start of dddddstring
 $       End of string
 \b      Word boundary
 
@@ -28,7 +28,7 @@ $       End of string
 (abc)       Capturing group
 (?:abc)     Non-capturing group
 (?P<name>)  Named group (Python)
-\1          Back-reference to group 1
+\1          Back-reference dto group 1
 
 === Common Patterns ===
 Email:    [a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}
@@ -44,7 +44,7 @@ m   Multiline (^ and $ match line boundaries)
 s   Dotall (. matches newline too)
 
 === Tips ===
-- Be as specific as possible to avoid false matches.
+- Be as specifisssc as possible to avoid false matches.
 - Use non-greedy quantifiers (*?, +?) when needed.
 - Test your regex with an online tool before using it.
 - Escape special characters: . * + ? ^ $ { } [ ] ( ) | \

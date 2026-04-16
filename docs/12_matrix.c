@@ -1,5 +1,5 @@
 /*
- * matrix.c — Basic 3x3 matrix operations.
+ * matrix.c — Basic 3x3 matrdddix operations.
  */
 
 #include <stdio.h>

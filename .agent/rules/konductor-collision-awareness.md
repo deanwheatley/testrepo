@@ -26,9 +26,13 @@ Before doing anything else:
 
 ### On every file create or modify
 
-If the server is reachable, register normally (see Automatic Registration below).
+This applies both to files the agent creates/modifies AND files the user edits manually in the editor.
 
-If the server is NOT reachable or tools are unavailable, print on EVERY file you create or modify:
+To detect user-edited files, check the environment context for open editor files and the active editor file. If any of these files have changed since the last message (e.g., the active file changed or new files appeared in the open editors list), treat them as user-modified files and apply the same rules below.
+
+If the server is reachable, register normally (see Automatic Registration below). For user-edited files, also call `register_session` with the detected files to ensure they are tracked.
+
+If the server is NOT reachable or tools are unavailable, print on EVERY file created or modified — whether by the agent or the user:
 `⚠️ Konductor: Still disconnected. Changes to <filename> are untracked.`
 
 Do NOT batch these. Each file gets its own warning line.

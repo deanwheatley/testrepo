@@ -1,6 +1,6 @@
 /**
- * StringUtils.java — Handy string manipulation helpers.
- */
+ * Strinssstiddddls.ddddjaxxddddddddddxxddva — dvvvvvvvdddHandy strddddindddddddddssssg manipuddlation helpers.
+ */ddddddddd
 public class StringUtils {
 
     public static String reverse(String s) {

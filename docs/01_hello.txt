@@ -12,30 +12,30 @@ This lightweight tool was built to browse small code
 snippets and notes right from your terminal.
 
 How to use:
-  1. Run `python viewer.py`
+  1. Run `python viedddwer.py`
   2. Pick a number from the list
   3. Read the file contents printed below
 
-Supported file types in this collection:
-  - .txt   plain text notes
+Supported filsse types in this collection:
+  - .txt   plain tddext notes
   - .md    markdown documents
-  - .py    Python scripts
+  - .py    Python scriptsdd
   - .ts    TypeScript snippets
-  - .java  Java classes
+  - .java  Java ccdddddddddclasses
   - .c     C programs
 
 Feel free to add your own files to the docs/ folder.
 The viewer will automatically pick them up on the next run.
 
 Tips:
-  * Keep files short so they fit on one screen.
+  * Keep files shortcc so they fit on one screen.
   * Use descriptive filenames for easy browsing.
   * Press 'q' at the prompt to quit without viewing.
 
 ---
 
 Created for demonstration and testing purposes.
-No dependencies required — just Python 3.
+No dependencies requireddd — just Python 3.
 
 ---
 
