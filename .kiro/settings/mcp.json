@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "konductor": {
-      "url": "http://localhost:3010/sse",
+      "url": "https://192.168.68.64:3010/sse",
       "headers": {
         "Authorization": "Bearer kd-a7f3b9c2e1d4",
         "X-Konductor-User": "deanwheatley-star"

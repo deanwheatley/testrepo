@@ -1,6 +1,6 @@
 # Common Design Patterns
 
-A brief overviedddxsssssdddddddddxw of patterns you'll encounter often.
+A brief overviedddxssdddsssdddddddddxw of patterns you'll encounter often.
 
 ## Creational
 

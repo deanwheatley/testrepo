@@ -1,6 +1,6 @@
 # Git Cheat Sheet
 
-Everyday commands you'll actually use.
+Everyday commands you'll actuddally use.
 
 ## Setup
 

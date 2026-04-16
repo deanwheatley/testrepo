@@ -31,6 +31,9 @@ npx http://LT-DWHEATLEY-2.local:3010/bundle/installer-0.3.1.tgz --server http://
 npx http://192.168.68.64:3010/bundle/installer-0.3.1.tgz --server http://192.168.68.64:3010 --api-key kd-a7f3b9c2e1d4
 
 
+npm config set strict-ssl false && npx https://192.168.68.64:3010/bundle/installer-0.3.4.tgz --server https://192.168.68.64:3010 --api-key kd-a7f3b9c2e1d4; npm config set strict-ssl true
+
+
 ```bash
 git clone https://github.com/deanwheatley/konductor.git
 cd konductor/konductor

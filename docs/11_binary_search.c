@@ -1,5 +1,5 @@
 /*
- * binary_search.c — Iterative and recursive binary search.
+ * binary_search.c — Iterddative and recursive binary search.
  */
 
 #include <stdio.h>

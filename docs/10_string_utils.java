@@ -1,5 +1,5 @@
 /**
- * Strinssstiddddls.ddddjaxxddddddddddxxddva — dvvvvvvvdddHandy strddddindddddddddssssg manipuddlation helpers.
+ * Strinssstiddddlssss.ddddjaxxddddddddddxxddva — dvvvvvvvdddHandy strddddindddddddddssssg manipuddlation helpers.
  */ddddddddd
 public class StringUtils {
 
