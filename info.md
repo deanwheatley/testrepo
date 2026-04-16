@@ -33,6 +33,15 @@ npx http://192.168.68.64:3010/bundle/installer-0.3.1.tgz --server http://192.168
 
 npm config set strict-ssl false && npx https://192.168.68.64:3010/bundle/installer-0.3.4.tgz --server https://192.168.68.64:3010 --api-key kd-a7f3b9c2e1d4; npm config set strict-ssl true
 
+cert info:
+# On this machine, find the CA cert:
+mkcert -CAROOT
+# → /Users/deanwheatley/Library/Application Support/mkcert
+
+# Copy rootCA.pem to the other machine, then on that machine:
+# macOS: security add-trusted-cert -d -r trustRoot -k ~/Library/Keychains/login.keychain rootCA.pem
+# Linux: cp rootCA.pem /usr/local/share/ca-certificates/mkcert-ca.crt && sudo update-ca-certificates
+
 
 ```bash
 git clone https://github.com/deanwheatley/konductor.git
